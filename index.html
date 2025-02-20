@@ -14,22 +14,22 @@
     <div class="container-fluid">
         <div class="nav mt-1">
             <div class="row">
-                <div class="container col">
+                <div class="container-fluid col">
                     <a href="#">
                         <span><img src="#" alt="amazon logo"></span>
                         <span>.in</span>
                     </a>
                 </div>
-                <div class="container col">
-                    <div class="container"></div>
-                    <div class="container">
-                        <span>Delivering to Chandigarh 160001</span>
-                        <span>Update Location</span>
+                <div class="container-fluid d-flex col-2">
+                    <div class="col-2 fs-4 pt-2"><i class='bx bx-location-plus'></i></div>
+                    <div class="col">
+                        <div class="row"><span class="fw-light" style="font-size: 13px;">Delivering to Chandigarh 160001</span></div>
+                        <div class="row"><span>Update Location</span></div>
                     </div>
                 </div>
-                <div class="container col">
+                <div class="container col-5">
                     <div class="container row">
-                        <div class="container col-4">
+                        <div class="container col-2">
                             <select class="form-select" aria-label="Default select example">
                                 <option selected>All</option>
                                 <option value="1">All Category</option>
@@ -40,17 +40,19 @@
                                 <option value="6">Books</option>
                             </select>
                         </div>
-                        <div class="container col-4">
-                            <input type="text">
+                        <div class="container col-8">
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" placeholder="Search Amazon.in"
+                                    aria-label="Username">
+                            </div>
                         </div>
-                        <div class="col-4 bg-warning"><i class='bx bx-search-alt-2'></i></div>
+                        <div class="col-1 fs-2 text-center bg-warning"><i class='bx bx-search-alt-2'></i></div>
                     </div>
                 </div>
                 <div class="container col">
-                    <span><img src="#" alt="country"></span>
                     <span>
                         <select class="form-select" aria-label="Default select example">
-                            <option selected>EN</option>
+                            <option selected><span><i class='bx bxs-flag'></i></span>EN</option>
                             <option value="1">HI</option>
                             <option value="2">TA</option>
                             <option value="3">TE</option>
@@ -63,7 +65,7 @@
                 </div>
                 <div class="container col">
                     <select class="form-select" aria-label="Default select example">
-                        <option selected>
+                        <option selected class="text-wrap">
                             <span>Hello, sign in</span>
                             <span>Account & Lists</span>
                         </option>
@@ -81,7 +83,7 @@
                     <span>& Orders</span>
                 </div>
                 <div class="container col">
-                    <span><img src="#" alt="cart logo"></span>
+                    <span class="fs-1"><i class='bx bx-cart'></i></span>
                     <span>Cart</span>
                 </div>
             </div>
