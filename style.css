@@ -1,10 +1,17 @@
 body {
-    background-color: aquamarine;
     color: white;
 }
 .selecter {
     width: 70px;
 }
-.nav {
-    background-color: black;
+.navdiv1 {
+    background-color: #243040;
+}
+.navdiv2 {
+    background-color: #162333;
+}
+.logosidein {
+    position: absolute;
+    padding-left: 90px;
+    padding-top: 9px;
 }
